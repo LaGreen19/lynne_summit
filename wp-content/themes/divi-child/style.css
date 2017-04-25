@@ -101,7 +101,7 @@ padding:5px 15px 5px 15px!important;
 
 .archive .short-bio{
   line-height:1em;
-  max-height:11em;
+  height:11em;
   overflow:hidden;
   color:#32323d;
   line-height: 1.5em;
@@ -131,13 +131,12 @@ padding:5px 15px 5px 15px!important;
 }
 
 .archive .cd-modal-action .btn{
-  margin-top:2%;
   font-size:1em;
 }
 
 
 .cd-modal-action{
-  margin-top:-5%!important;
+  margin-top:-3%!important;
 }
 
 .cd-modal-content h1{
@@ -149,7 +148,6 @@ padding:5px 15px 5px 15px!important;
   border:1px solid #94646f;
   padding:1% 5%!important;
 }
-
 
 .cd-modal::after{
   background:0;
@@ -240,7 +238,7 @@ width:250px!important;
 }
 }
 
-@media only screen and (min-width: 500px) and (max-width:768px){
+@media only screen and (min-width: 500px){
 .archive .speaker-section{
   width:50%;
   float:left;
@@ -252,7 +250,7 @@ width:250px!important;
 
 }
 
-/*TABLET AND LARGER LARGER SCREENS */
+
 @media only screen and (min-width: 768px){
 
 /*moves speaker info to left*/
@@ -265,9 +263,9 @@ width:250px!important;
 
 }
 
-.single-speaker .et_pb_column .et_pb_team_member_image{
+.et_pb_column .et_pb_team_member_image{
 width:80%!important;
-max-width:200px!important;
+max-width:250px!important;
 margin:0 10%!important;
 }
 
@@ -289,9 +287,6 @@ padding-top:10%;
 }
 /*Moves read more directly below bio*/
 
-.cd-modal-action{
-  margin-top:-10%!important;
-}
 
 /*limits lenght of speaker bio on video pages*/
   .single-speaker .short-bio{
@@ -306,12 +301,6 @@ float:left!important;
 margin-top:5%;
 }
 
-.single-speaker .person-module{
-box-shadow: 5px 5px 10px #94646f;
-padding:5%;
-border-radius:10px;
-}
-
 .person-module{
   margin:0;
 }
@@ -323,28 +312,6 @@ border-radius:10px;
 
 /***ARCHIVES PAGE ****/
 
-.archive .speaker-section{
-  width:33.3%;
-  float:left;
-}
-
-.archive .et_pb_column .et_pb_team_member_image{
-    width:70%!important;
-    margin:0 15%!important;
-  }
-
-.archive .short-bio{
-    line-height:1em;
-    max-height:13em;
-    overflow:hidden;
-    color:#32323d;
-    line-height: 1.5em;
-    font-size:.8em;
-  }
-
-  .archive .cd-modal-action .btn {
-    font-size:.9em!important;
-  }
 
 /*OLD LEARN MORE MODUL
 .et-learn-more .learn-more-content {
@@ -359,12 +326,25 @@ border-radius:10px;
 */
 }
 
-@media only screen and (min-width: 883px){
+
+@media only screen and (min-width: 981px){
   .right-footer-icon{
     padding-bottom:0!important;
 }
 
-@media only screen and (min-width: 1068px){
+.video-optin-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+
+}
+
+.et_pb_module.et_pb_video.et_pb_video_0{
+  margin-top:0!important;
+}
+
+}
+@media only screen and (min-width: 1100px){
 .left-footer-icon{
   justify-content:flex-end!important;
 }
@@ -372,5 +352,48 @@ border-radius:10px;
 .right-footer-icon{
   justify-content:flex-start!important;
 }
+
+.archive .speaker-section{
+  width:33.3%;
+  float:left;
+}
+
+.archive .et_pb_column .et_pb_team_member_image{
+    width:70%!important;
+    margin:0 15%!important;
+  }
+
+.archive .short-bio{
+    line-height:1em;
+    height:13em;
+    overflow:hidden;
+    color:#32323d;
+    line-height: 1.5em;
+  }
+
+  .archive .cd-modal-action .btn {
+    font-size:.9em!important;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1405px){
+
+  #content{
+    max-width:1300px;
+    margin:auto;
+  }
+
+.single-speaker .speaker-row.et_pb_row{
+  max-width:390px!important;
+}
+
+.single-speaker .et_pb_column .et_pb_team_member_image {
+    width: 60% !important;
+    margin: 0 20% !important;
+}
+
 
 }
