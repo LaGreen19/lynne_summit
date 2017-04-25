@@ -1,0 +1,43 @@
+.et_bloom .et_bloom_form_container .et_bloom_form_content .et_bloom_popup_input input {
+    background: #f8eeea;
+    border: #94646f 1px solid;
+    box-shadow: 5px 5px 5px #94646f;
+    width: 90%;
+    margin: 0 5%;
+    padding:15px 0;
+}
+.et_bloom .et_bloom_form_container.et_bloom_rounded button {
+    box-shadow: 5px 5px 5px #94646f;
+    border: #25262f 1px solid;
+}
+span.et_bloom_button_text.et_bloom_button_text_color_light {
+    color: #f8eeea!important;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em!important;
+}
+.et_bloom .et_bloom_form_header p {
+    font-size: 18px!important;
+    color: #25262f!important;
+    margin: -5% 0 5% 0;
+}
+.et_bloom_form_footer {
+    padding-top: 15px!important;
+}
+
+.et_bloom .et_bloom_form_container .et_bloom_form_content,
+.et_bloom .et_bloom_optin_1 .et_bloom_form_container .et_bloom_form_header{
+padding:0!important;
+}
+
+@media only screen and (min-width:768px){
+.et_bloom .et_bloom_inline_form .et_bloom_form_container {
+    width: 90%!important;
+    margin: -10% 5% 0 5%!important;
+}
+
+.et_bloom .et_bloom_form_container .et_bloom_form_content {
+    padding: 0 30px!important;
+}
+
+}
