@@ -1,4 +1,5 @@
 <?php
+
 function my_theme_enqueue_styles() {
 
     $parent_style = 'Divi-style';
@@ -10,8 +11,9 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
+/***ADDS DIVI BUILDER TO CUSTOM POSTS */
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 function my_et_builder_post_types( $post_types ) {
     $post_types[] = 'speaker';
@@ -25,5 +27,8 @@ function admin_style() {
 wp_enqueue_style('admin-styles', get_template_directory_uri().'/admin.css');
 }
 add_action('admin_enqueue_scripts', 'admin_style');
+
+
+
 
 ?>
