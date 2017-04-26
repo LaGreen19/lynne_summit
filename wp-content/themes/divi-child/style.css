@@ -12,6 +12,7 @@
  Text Domain:  divi-child
 */
 
+
 body
 {
   background-color:#f8eeea;
@@ -31,6 +32,7 @@ font-size:1.25em;
 #footer-bottom{
   padding:0;
 }
+
 
 /*** speakers archive page to remove video info ****/
 .archive .hidden,
@@ -324,6 +326,26 @@ margin-top:5%;
 }
 
 */
+
+
+
+.product-info-row{
+  margin-bottom:30%;
+}
+
+#main-footer {
+    position: fixed;
+    bottom: 10%;
+    width: 100%;
+    height: 55px;
+}
+
+
+.archive .et_pb_module.et_pb_team_member.et_pb_team_member_3.et_pb_bg_layout_light.clearfix {
+    margin-bottom: 50%;
+}
+
+
 }
 
 
@@ -344,7 +366,7 @@ margin-top:5%;
 }
 
 }
-@media only screen and (min-width: 1100px){
+@media only screen and (min-width: 1084px){
 .left-footer-icon{
   justify-content:flex-end!important;
 }
@@ -375,8 +397,10 @@ margin-top:5%;
     font-size:.9em!important;
   }
 
-
-
+  #main-footer {
+      position: fixed;
+      bottom: 5%;
+      height: 100px;
 }
 
 @media only screen and (min-width: 1405px){
@@ -395,5 +419,14 @@ margin-top:5%;
     margin: 0 20% !important;
 }
 
+#main-footer {
+    position: fixed;
+    bottom: 10%;
+    height: 100px;
+}
+
+.footer-row{
+  padding-bottom:150px!important;
+}
 
 }

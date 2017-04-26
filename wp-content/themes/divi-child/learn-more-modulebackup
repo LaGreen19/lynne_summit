@@ -1,0 +1,12 @@
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+    jQuery(".learn-more-content").click(function(){
+    jQuery(".learn-more-content").hide();
+
+    jQuery("#learn-less").click(function(){
+    jQuery(".learn-more-content").show();
+});
+});
+});
+</script>
