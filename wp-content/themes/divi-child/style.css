@@ -31,21 +31,25 @@ font-size:1.25em;
   padding:0;
 }
 
-#main-footer{
-  height:auto;
-  width:100%;
-  z-index: 99999;
-  bottom: 0;
-  cursor: pointer;
-  position:fixed;
-  border-top:1px solid #94646f;
+.footer-section {
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    display: none;
+    width: 100%;
+    background-color: blue;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #94646f;
 }
 
-.show,
-#main-footer:hover {
-    display: block!important;
+.show, .footer-nav:hover {
+    display: block;
 }
-
 
 .product-info-row{
   margin-bottom:30%;
