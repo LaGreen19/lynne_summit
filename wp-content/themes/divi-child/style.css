@@ -133,8 +133,6 @@ text-align:center;
 
 
 /*LEARN MORE SPEAKER INFO MODULE
-
-
 .et-learn-more h3.heading-more,
 .et-learn-more{
 background:#f8eeea!important;
@@ -143,11 +141,9 @@ color:#30323d!important;
 line-height: 1.5em!important;
 padding:5px 15px 5px 15px!important;
 }
-
 .et-learn-more h3.heading-more{
   border:0!important;
 }
-
 .et-learn-more h3.heading-more span.et_learnmore_arrow{
   top:15%!important;
   height:40px!important;
@@ -155,7 +151,6 @@ padding:5px 15px 5px 15px!important;
   border:0!important;
   box-shadow:none!important;
 }
-
 .et-learn-more .learn-more-content {
   width: 200%!important;
   bottom: 220px!important;
@@ -165,7 +160,6 @@ padding:5px 15px 5px 15px!important;
   box-shadow: 5px 5px 10px #94646f!important;
   background:#f8eeea;
   }
-
 ****/
 
 /************************SMALL PHONE STYLES *********************/
@@ -180,6 +174,7 @@ padding:5px 15px 5px 15px!important;
 .archive .speaker-section{
   width:50%;
   float:left;
+  max-height:650px;
 }
 }
 
@@ -275,6 +270,10 @@ width:250px!important;
   padding-top:10%;
   }
 
+  .archive .speaker-section {
+    max-height: 750px;
+}
+
 /*****************VIDEO PAGE ************/
 
 /*moves speaker info to left*/
@@ -327,7 +326,6 @@ margin-top:5%;
   z-index:3!important;
   box-shadow: 5px 5px 10px #94646f!important;
 }
-
 .archive .et_pb_module.et_pb_team_member.et_pb_team_member_3.et_pb_bg_layout_light.clearfix {
     margin-bottom: 50%;
 }
