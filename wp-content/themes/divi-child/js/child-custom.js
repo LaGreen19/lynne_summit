@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
 	function footer()
     {
         var scroll = jQuery(window).scrollTop();
-        if(scroll > 0)
+        if(scroll > 50)
         {
             jQuery(".footer-section").fadeIn("slow").addClass("show");
         }
@@ -23,13 +23,6 @@ jQuery(document).ready(function(){
 );
 				clearTimeout(jQuery.data(this, 'scrollTimer'));
 		         jQuery.data(this, 'scrollTimer', setTimeout(function() {
-		             if (jQuery('.footer-section').hover()) {
-		 	        	footer();
-		     		}
-		             else
-		             {
-		             	jQuery(".footer-section").fadeOut("slow");
-		             }
 		 		}, 2000));
 		     }
 		     footer();
