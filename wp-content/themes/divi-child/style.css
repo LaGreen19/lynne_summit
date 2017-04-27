@@ -102,7 +102,7 @@ text-align:center;
 
 
 /****VIDEO PAGES ****/
-.single-speaker .short-bio{
+.single-speakers .short-bio{
   line-height:1.3em;
   height:7em;
   overflow:hidden;
@@ -218,12 +218,12 @@ padding:5px 15px 5px 15px!important;
 }
 
 /***VIDEO PAGE***/
-.single-speaker .et_pb_row_1.et_pb_row{
+.single-speakers .et_pb_row_1.et_pb_row{
   width:100%!important;
   margin-top:-15%!important;
 }
 
-.single-speaker .et_pb_team_member_image
+.single-speakers .et_pb_team_member_image
 {
   width:30%!important;
   position:absolute!important;
@@ -232,20 +232,20 @@ padding:5px 15px 5px 15px!important;
   margin:0!important;
 }
 
-.single-speaker .et_pb_team_member .et_pb_team_member_description h4,
-.single-speaker .et_pb_team_member .et_pb_member_position,
-.single-speaker .et_pb_team_member .et_pb_team_member_description{
+.single-speakers .et_pb_team_member .et_pb_team_member_description h4,
+.single-speakers .et_pb_team_member .et_pb_member_position,
+.single-speakers .et_pb_team_member .et_pb_team_member_description{
   width:60%;
 }
 
-.single-speaker .et_pb_team_member_description h4{
+.single-speakers .et_pb_team_member_description h4{
 position:absolute;
 top:0;
 width:100%;
 text-align:center;
 }
 
-.single-speaker .et_pb_member_position{
+.single-speakers .et_pb_member_position{
 position:absolute;
 top:5%;
 width:100%;
@@ -253,7 +253,7 @@ text-align:center;
 line-height:2em;
 }
 
-.single-speaker .et_pb_team_member_description{
+.single-speakers .et_pb_team_member_description{
 float: right;
 margin-top: 50px;
 }
@@ -283,7 +283,7 @@ width:250px!important;
 /*****************VIDEO PAGE ************/
 
 /*moves speaker info to left*/
-.single-speaker .speaker-row.et_pb_row {
+.single-speakers .speaker-row.et_pb_row {
     width: 30%!important;
     max-width:300px!important;
     float: left!important;
@@ -292,13 +292,13 @@ width:250px!important;
 }
 
 /*limits length of bio*/
-.single-speaker .short-bio{
+.single-speakers .short-bio{
   line-height:1.25em;
   height:27em;
 }
 
 /*video info to the right*/
-.single-speaker .et_pb_row_1.et_pb_row{
+.single-speakers .et_pb_row_1.et_pb_row{
 width:60%!important;
 float:left!important;
 margin-top:5%;
@@ -399,11 +399,11 @@ margin-top:5%;
     margin:auto;
   }
 
-.single-speaker .speaker-row.et_pb_row{
+.single-speakers .speaker-row.et_pb_row{
   max-width:390px!important;
 }
 
-.single-speaker .et_pb_column .et_pb_team_member_image {
+.single-speakers .et_pb_column .et_pb_team_member_image {
   width: 60% !important;
   margin: 0 20% !important;
 }
