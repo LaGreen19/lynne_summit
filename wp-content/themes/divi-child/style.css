@@ -47,8 +47,8 @@ font-size:1.25em;
     border-top: 1px solid #94646f;
 }
 
-.show, .footer-nav:hover {
-    display: block;
+.show{
+  display:block;
 }
 
 .product-info-row{
